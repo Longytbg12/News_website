@@ -1,0 +1,20 @@
+- Laravel frmework
+	- Trang chu laravel: https://laravel.com/
+	- Cai dat laravel
+		- Truoc khi cai dat thi can phai cai dat cac cong cu sau
+			- Cai xampp
+			- Cai composer: download tai dia chi http://getcomposer.org/download
+		- Cai dat laravel
+			- Truy cap vao thu muc htdocs
+			- Tren thanh dia chi url go: cmd -> cua so cmd xuat hien
+				- Chay lenh sau: composer create-project laravel/laravel php57_laravel
+- Truy cap laravel theo duong dan: http://localhost/php57_laravel/public		
+- Kien truc laravel
+	- app: thu muc app chua tat ca cac project duoc tao, hau het cac class trong project deu o trong day
+		- thu muc model chua ngay o trong nay
+	- app/Http/Controllers: Thu muc controllers, chua cac controller cua project
+	- app/Http/Middleware: Thu muc middleware, chua cac tap tin de loc va ngan chan cac request
+	- public: Thu muc nay chua file index.php, ben trong folder public chua cac file css, js, images...
+	- routes/web.php: file web.php dieu khien cac route cua view
+	- file .env chua cac thong tin cau hinh website
+	- resources/view: chua cac file view cua website
